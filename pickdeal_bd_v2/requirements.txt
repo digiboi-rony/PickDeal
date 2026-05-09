@@ -1,0 +1,18 @@
+# PickDeal BD — Production Requirements
+# Python 3.11+
+
+# Core Telegram library
+python-telegram-bot==20.7
+
+# Environment variables
+python-dotenv==1.0.0
+
+# HTTP client (used by python-telegram-bot internally)
+httpx==0.26.0
+
+# Async support
+anyio==4.2.0
+
+# Optional: PostgreSQL upgrade path (uncomment when ready)
+# asyncpg==0.29.0
+# psycopg2-binary==2.9.9
